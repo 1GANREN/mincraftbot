@@ -24,7 +24,7 @@ RU
 АвторизацияИспользуйте команду /login, чтобы ввести пароль администратора. После успешной авторизации вам станут доступны дополнительные команды для изменения настроек.
 
 Использование командДля проверки статуса сервера используйте команду /status. Чтобы изменить IP-адрес сервера, выполните команду /input_ip и следуйте инструкциям.
-Далее создайте файлы ip.txt и login.txt бот сделан на русском прото поменяйте в его коде слова на ваш язык в переводчике
+Далее создайте файлы ip.txt и login.txt бот сделан на русском просто поменяйте в его коде слова на ваш язык в переводчике
 
 
 Для запуска этого бота вам понадобятся следующие библиотеки Python:
@@ -68,7 +68,7 @@ Authorization Use the /login command to enter the administrator password. After 
 
 Using commands To check the status of the server, use the /status command. To change the IP address of the server, run the command /input_ip and follow the instructions.
 
-Next, create the files ip.txt and login.txt bot made in Russian proto change the words in its code to your language in the translator
+Next, create the files ip.txt and login.txt bot made in Russian Simply change the words in its code to your language in the translator
 
 To run this bot, you will need the following Python libraries:
 
