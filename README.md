@@ -33,6 +33,40 @@ RU
 3. **Ntplib**: Используется для синхронизации времени с NTP-серверами.
 4. **Pytz**: Необходима для работы с временными зонами.
 
+
+В 12 строке TOKEN = "<YOUR_TELEGRAM_BOT_TOKEN>" поменяйте на свой токен TOKEN = " " ковычки нужны  
+
+ Пошаговый гайд: Как создать токен для Telegram-бота
+
+1. Найдите и запустите BotFather134
+
+Откройте Telegram и введите @BotFather в строке поиска.
+Выберите официального бота с синей галочкой верификации.
+Нажмите кнопку «Начать» (Start), чтобы активировать диалог.
+2. Создайте нового бота
+
+Отправьте команду /newbot в чат с BotFather.
+Укажите название бота (например, "Погодный помощник"). Это имя будет отображаться в профиле бота.
+Придумайте юзернейм (username), который должен заканчиваться на _bot или Bot (например, weather_helper_bot). Если имя занято, BotFather попросит ввести другое.
+3. Получите токен
+
+После успешной регистрации BotFather отправит сообщение с токеном вида:
+1234567890:ABCDefGhIJKlmNOPQRstUVWxyZ13.
+Сохраните токен в надежное место (например, в файл .env или зашифрованное хранилище). Потеря токена означает потерю контроля над ботом.
+🔧 Дополнительные настройки бота через BotFather
+
+Изменение параметров:
+Используйте команды:
+/mybots — управление созданными ботами.
+/setdescription — добавьте описание бота.
+/setuserpic — загрузите аватарку.
+Включение Inline-режима:
+Перейдите в раздел Bot Settings → Inline Mode → Turn on, чтобы бот мог отвечать в любых чатах.
+Обновление токена:
+Если токен скомпрометирован, используйте команду /revoke в BotFather для генерации нового.
+
+
+
 EN
 
 
@@ -81,3 +115,52 @@ To run this bot, you will need the following Python libraries:
 4. **Pytz**: Necessary for working with time zones.
 
 
+In line 12 TOKEN = "<YOUR_TELEGRAM_BOT_TOKEN>" change to your token TOKEN = " " jumps are needed
+
+
+
+Step-by-step guide: How to create a token for a Telegram bot
+
+1. Find and run BotFather134
+
+Open Telegram and type @BotFather in the search bar.
+
+Choose an official bot with a blue verification tick.
+
+Click the "Start" button to activate the dialog.
+
+2. Create a new bot
+
+Send the /newbot command to the chat with BotFather.
+
+Specify the name of the bot (for example, "Weather Assistant"). This name will be displayed in the bot profile.
+
+Come up with a username that should end with _bot or Bot (for example, weather_helper_bot). If the name is taken, BotFather will ask you to enter another.
+
+3. Get a token
+
+After successful registration, BotFather will send a message with a token of the form:
+
+1234567890:ABCDefGhIJKLmNOPQRstUVWxyZ13.
+
+Save the token to a safe place (for example, in a .env file or encrypted storage). The loss of a token means the loss of control over the bot.
+
+🔧 Additional bot settings via BotFather
+
+Changing parameters:
+
+Use the commands:
+
+/Mybots - management of created bots.
+
+/Setdescription — add a description of the bot.
+
+/Setuserpic — download the avatar.
+
+Enabling Inline mode:
+
+Go to Bot Settings → Inline Mode → Turn on so that the bot can respond in any chats.
+
+Token update:
+
+If the token is compromised, use the /revoke command in BotFather to generate a new one.
