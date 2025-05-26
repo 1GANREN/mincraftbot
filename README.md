@@ -34,6 +34,8 @@ RU
 4. **Pytz**: Необходима для работы с временными зонами.
 
 
+в login.txt придумайте и напишите пароль
+
 В 12 строке TOKEN = "<YOUR_TELEGRAM_BOT_TOKEN>" поменяйте на свой токен TOKEN = " " ковычки нужны  
 
  Пошаговый гайд: Как создать токен для Telegram-бота
@@ -114,6 +116,9 @@ To run this bot, you will need the following Python libraries:
 
 4. **Pytz**: Necessary for working with time zones.
 
+
+
+In login.txt come up with and write a password
 
 In line 12 TOKEN = "<YOUR_TELEGRAM_BOT_TOKEN>" change to your token TOKEN = " " jumps are needed
 
