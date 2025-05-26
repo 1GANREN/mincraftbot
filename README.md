@@ -1,7 +1,6 @@
-
-#RU
-#Документация для обычного пользователя
-#Что делает этот бот?
+RU
+Документация для обычного пользователя
+Что делает этот бот?
 
 Этот Telegram-бот предназначен для управления и мониторинга состояния сервера Minecraft. Основные возможности включают проверку статуса сервера, изменение IP-адреса сервера и получение информации о версии бота.
 Команды бота
@@ -25,10 +24,10 @@
 3. **Ntplib**: Используется для синхронизации времени с NTP-серверами.
 4. **Pytz**: Необходима для работы с временными зонами.
 
-#EN
-#Documentation for an ordinary user
+EN
+Documentation for an ordinary user
 
-#What does this bot do?
+What does this bot do?
 
 This Telegram bot is designed to manage and monitor the status of the Minecraft server. The main features include checking the server status, changing the server IP address and getting information about the bot version.
 
